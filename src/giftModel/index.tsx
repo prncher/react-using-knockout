@@ -6,17 +6,17 @@ import * as React from 'react';
 
 let Something = React.createClass({
     render: function() {
-        return (<div><heyo>foo</heyo></div>);
+        return (<div><testElmt>foo</testElmt></div>);
     }
 })
 
-// test.d.ts
+// typedef
 declare namespace JSX {
     interface IntrinsicElements {
-        heyo: any
+        testElmt: any
     }
 }
-tsc --jsx react --module "amd" --target es2017 test.tsx test.d.ts
+
 */
 
 export interface MyProps {

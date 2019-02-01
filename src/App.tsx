@@ -1,9 +1,9 @@
 import * as React from 'react';
 import './App.css';
-import { TestComp } from './task-list/index';
+import { TestComp } from './giftModel/index';
 import logo from './logo.svg';
 import * as ko from 'knockout';
-import { GiftModel } from './task-list/giftModel';
+import { GiftModel } from './giftModel/giftModel';
 
 // Activate jQuery Validation
 // $("form").validate({ submitHandler: viewModel.save });
